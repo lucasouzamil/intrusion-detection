@@ -39,6 +39,12 @@ O modelo de Machine Learning (`modelo.pkl`) já está incluído no repositório 
 
 ## 🚀 Instalação e Execução
 
+Para qualquer dúvida consulte:
+
+* [Repositório CICFlowMterAPI](https://github.com/lucasouzamil/CICFlowMeter.git)
+
+* [Repositório Dashboard](https://github.com/lucasouzamil/CICIntrusionDetection-DashBoard.git)
+
 ### 1. Clonar repositórios
 
 ```bash
