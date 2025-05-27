@@ -3,9 +3,7 @@
 
 Integração entre **CICFlowMeter** (Java) para captura de tráfego e envio de fluxos CSV, e um **Dashboard** (FastAPI + frontend) para predição e visualização em tempo real.
 
-![Dashboard Preview](img/demo.png)
-
-## 📺 Vídeo de Demonstração e Explicação
+Vídeo:
 
 [![Assistir ao vídeo de demonstração e explicação](http://img.youtube.com/vi/8WfmkdcId_Y/0.jpg)](https://youtu.be/8WfmkdcId_Y?si=KSjdrt6PVae30BHY)
 
@@ -113,6 +111,6 @@ root/
   * Implementar sistema de **salvamento periódico** dos dados de fluxo, permitindo consultas históricas por período.
 
 
-## 📝 Licença & Autor
+## 📝 Autor
 
 **Autor:** [Lucas Lima](https://github.com/lucasouzamil)
