@@ -8,14 +8,14 @@ Vídeo:
 [![Assistir ao vídeo de demonstração e explicação](http://img.youtube.com/vi/8WfmkdcId_Y/0.jpg)](https://youtu.be/8WfmkdcId_Y?si=KSjdrt6PVae30BHY)
 
 
-## 🔗 Referência do Modelo
+## Referência do Modelo
 
 O modelo de Machine Learning (`modelo.pkl`) já está incluído no repositório do Dashboard. Para detalhes sobre pré-processamento e treinamento, consulte (apenas para referência):
 
 * [Repositório de Análise e Treinamento](https://github.com/lucasouzamil/Intrusion-Detection-CICIDS2017)
 
 
-## 🏗️ Arquitetura Geral
+##  Arquitetura Geral
 
 ```text
 [ Rede ]
@@ -28,14 +28,14 @@ O modelo de Machine Learning (`modelo.pkl`) já está incluído no repositório 
 ```
 
 
-## 💻 Pré-requisitos
+## Pré-requisitos
 
 * **Java JDK 8+**, **Maven**, **libpcap-dev** (captura de pacotes)
 * **Python 3.8+**, **pip**
 * Ambiente virtual (recomendado) para Python
 
 
-## 🚀 Instalação e Execução
+## Instalação e Execução
 
 Para qualquer dúvida consulte:
 
@@ -83,13 +83,13 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
 Abra **[http://localhost:8000](http://localhost:8000)** no navegador.
 
 
-## ⚙️ Endpoints Principais
+## Endpoints Principais
 
 * `POST /predict`: recebe linhas CSV de fluxos pelo CICFlowMeter.
 * `GET /flows`: retorna JSON com fluxos recentes e predições.
 
 
-## 📂 Estrutura de Pastas
+## Estrutura de Pastas
 
 ```
 root/
@@ -98,7 +98,7 @@ root/
 ```
 
 
-## 🔮 Futuras Melhorias
+## Futuras Melhorias
 
 * **Modelo de Predição em Dois Estágios**:
 
@@ -111,6 +111,6 @@ root/
   * Implementar sistema de **salvamento periódico** dos dados de fluxo, permitindo consultas históricas por período.
 
 
-## 📝 Autor
+## Autor
 
 **Autor:** [Lucas Lima](https://github.com/lucasouzamil)
